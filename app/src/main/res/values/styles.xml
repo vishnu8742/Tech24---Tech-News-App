@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="mytoast">-->
+        <!--<item name="stTextBold">true</item>-->
+        <!--<item name="stTextColor">#fff</item>-->
+        <!--<item name="stFont">@font/merriweatherregular</item>-->
+        <!--<item name="stTextSize">16sp</item>-->
+        <!--<item name="stColorBackground">#000</item>-->
+        <!--<item name="stSolidBackground">true</item>-->
+        <!--<item name="stStrokeWidth">3dp</item>-->
+        <!--<item name="stStrokeColor">#fff</item>-->
+        <!--<item name="stLength">LONG</item>-->
+        <!--<item name="stGravity">center</item>-->
+        <!--<item name="stRadius">5dp</item>-->
+    <!--</style>-->
+    <!--<style name="mytoast2">-->
+        <!--<item name="stTextBold">true</item>-->
+        <!--<item name="stTextColor">#fff</item>-->
+        <!--<item name="stFont">@font/merriweatherbold</item>-->
+        <!--<item name="stTextSize">16sp</item>-->
+        <!--<item name="stColorBackground">#990000</item>-->
+        <!--<item name="stSolidBackground">true</item>-->
+        <!--<item name="stStrokeWidth">3dp</item>-->
+        <!--<item name="stStrokeColor">#fff</item>-->
+        <!--<item name="stLength">LONG</item>-->
+        <!--<item name="stGravity">top</item>-->
+        <!--<item name="stRadius">5dp</item>-->
+    <!--</style>-->
+</resources>

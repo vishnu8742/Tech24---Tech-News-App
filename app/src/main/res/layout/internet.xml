@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/noint"
+        app:srcCompat="@drawable/no_internet"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noint"
+        android:id="@+id/text1"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:text="Please Check Internet Connection then Refresh "
+        android:textSize="16dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"
+        android:layout_below="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REFRESH"
+        android:background="#009"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        tools:ignore="HardcodedText,SpUsage" />
+
+</RelativeLayout>
